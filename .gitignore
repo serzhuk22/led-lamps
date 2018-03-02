@@ -1,0 +1,5 @@
+# folder node_modules
+/node_modules
+
+# ignoring desktopp.ini file
+desktop.ini

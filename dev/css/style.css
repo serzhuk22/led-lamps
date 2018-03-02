@@ -1,0 +1,11 @@
+body {
+	background: url(../img/bg2.jpg) no-repeat center center fixed;
+	background-size: cover;
+	/*background: pink;*/
+}
+@media (min-width: 1260px) {
+	.wrap {
+		width: 960px;
+		margin: 0 auto
+	}
+}

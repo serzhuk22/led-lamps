@@ -1,0 +1,14 @@
+/*section carousel*/
+.carousel {margin-top: 200px;}
+.item img {
+	margin: 0 auto;	
+}
+.carousel-control,  .carousel-control:focus  {
+	background: none !important;
+	color: black;
+}
+.carousel-control:hover{
+	background: none !important;
+	color: coral;
+}
+ 
