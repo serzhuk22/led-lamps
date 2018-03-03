@@ -1,0 +1,46 @@
+/*section footer*/
+.footer	{
+	padding-top: 30px;
+	padding-bottom: 5px;
+	background-color: #222;
+	background-image: linear-gradient(to top,#3c3c3c 0,#222 100%);
+	color: white;
+}
+.footer .contacts, .footer .social {
+	margin-bottom: 15px;
+} 
+.footer .contacts {
+	color: white;
+}
+/*.footer .contacts:hover {
+	color: coral;
+	transition: ease .5s;
+}*/
+.footer span.span-head {
+	display: block;
+	margin-bottom: 10px;
+	color: coral;
+}
+a.social-link {
+	text-align: center;
+	display: block;
+	background: #bababa;
+    color: #222;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    width: 45px;
+    height: 45px;
+    font-size: 24px;
+    float: left;
+    margin-right: 7px;
+}
+a.social-link:hover {
+	-ms-transform: rotate(7deg); /* IE 9 */
+    -webkit-transform: rotate(7deg); /* Safari 3-8 */
+    transform: rotate(360deg);
+    transition: ease 1s;
+    color: coral;
+}
+.social-link i {
+	line-height: 40px;
+}

@@ -1,0 +1,23 @@
+/*section about-us*/
+.about {
+	/*margin: 0 auto;	*/
+	margin-bottom: 100px;	
+}
+.about h1 {
+	margin: 150px auto 30px;
+	font-size: 50px;
+	font-weight: bold;
+	color: 	white;
+	text-align: center;		
+}
+.about h2 {
+	color: 	white;
+	text-align: center;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 	20px;	
+}
+.about h1:hover, .about h2:hover {
+	color: coral;
+	transition: ease 0.5s;
+}

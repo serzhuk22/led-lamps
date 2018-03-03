@@ -18,8 +18,8 @@ gulp.task('sprite', function(){
 });
 gulp.task('concat', function () {
   gulp.src('dev/css/**/*.css')
-    .pipe(concatCss("main.css"))
-    .pipe(cleanCSS({compatibility: 'ie8'}))
+    .pipe(concatCss('main.css'))
+    // .pipe(cleanCSS({compatibility: 'ie8'}))
     .pipe(gulp.dest('build/css/'))
     .pipe(connect.reload());
 }); 

@@ -1,14 +1,13 @@
 /*section header*/
-h1 {
-	color:red;
-	font-size: 50px;
-}
 .header .navbar-brand {
 	height: 80px;
 }
 .header .nav >li >a {
   padding-top: 30px;
   padding-bottom: 30px;
+} 
+.header .nav >li >a:hover, .navbar-inverse .navbar-nav>.active>a {
+	color: coral !important;
 }
 .header .navbar-toggle {
   padding: 10px;

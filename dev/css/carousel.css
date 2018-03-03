@@ -1,7 +1,23 @@
 /*section carousel*/
-.carousel {margin-top: 200px;}
+.carousel {
+	/*height: 350px;	*/
+	/*height: 400px;*/
+	margin-bottom: 200px;
+}
 .item img {
 	margin: 0 auto;	
+}
+.carousel-caption h3 {
+	font-size: 	30px;
+	color: white;
+	bottom: 0 !important;
+	/*background-color:rgba(192,192,192,0.3);*/
+	/*border-radius: 5px;*/
+}
+.carousel-caption h3:hover {
+	font-size: 	30px;
+	color: coral;
+	transition: ease .5s;
 }
 .carousel-control,  .carousel-control:focus  {
 	background: none !important;
@@ -10,5 +26,14 @@
 .carousel-control:hover{
 	background: none !important;
 	color: coral;
+	transition: ease .5s;	
 }
+.carousel-indicators .active {
+	background-color: coral;
+	border-color: coral;	
+}
+.carousel-indicators li{
+	background-color: white;
+}
+
  
