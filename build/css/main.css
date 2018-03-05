@@ -75,7 +75,8 @@
 /*section footer*/
 
 .footer {
-  padding-top: 30px;
+  /*margin-top: -120px;*/
+  padding-top: 15px;
   padding-bottom: 5px;
   background-color: #222;
   background-image: linear-gradient(to top,#3c3c3c 0,#222 100%);
@@ -129,6 +130,16 @@ a.social-link:hover {
 .social-link i {
   line-height: 40px;
 }
+#page-wrap:after {
+  content: "";
+  display: block;
+  height: 10px;
+}
+
+#page-wrap {
+  min-height: 100%;
+  margin-bottom: 10px;
+}
 /*section header*/
 
 .header .navbar-brand {
@@ -149,15 +160,65 @@ a.social-link:hover {
   padding: 10px;
   margin: 25px 15px 25px 0;
 }
+.product {
+  margin-top: 100px;
+  color: white;
+  margin-bottom: 150px;
+}
+
+.product .cart {
+  float: left;
+  width: 200px;
+  height: 200px;
+  margin-bottom: 25px;
+  margin-right: 30px;
+}
+
+.product .cart img {
+  width: 100%;
+  height: auto;
+}
+
+.product p {
+  font-size: 25px;
+  font-style: italic;
+}
+html,
+body {
+  height: 100%;
+}
+
 body {
   background: url("../img/bg2.jpg") no-repeat center center fixed;
   background-size: cover;
+  /*display: flex;*/
+  /*flex-direction: column;*/
   /*background: pink;*/
 }
+
+/*.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}*/
 
 @media (min-width: 1260px) {
   .wrap {
     width: 960px;
     margin: 0 auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .product {
+    padding: 0 20px;
+  }
+
+  .product p {
+    padding-left: 20px;
+  }
+
+  .footer {
+    padding-bottom: 15px;
   }
 }

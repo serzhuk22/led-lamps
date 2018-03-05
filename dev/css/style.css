@@ -1,11 +1,33 @@
+html, body {
+	height: 100%;
+}
 body {
 	background: url(../img/bg2.jpg) no-repeat center center fixed;
 	background-size: cover;
+	/*display: flex;*/
+	/*flex-direction: column;*/
 	/*background: pink;*/
 }
+/*.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}*/
 @media (min-width: 1260px) {
 	.wrap {
 		width: 960px;
 		margin: 0 auto
 	}
+}
+@media (max-width: 768px) {
+	.product {
+		padding: 0 20px;
+	}
+	.product p {
+		padding-left: 20px;
+	}
+	.footer {
+		padding-bottom: 15px;	
+	}
+
 }

@@ -1,0 +1,9 @@
+#page-wrap:after {
+	content: "";
+	display: block;
+	height: 10px;
+}
+#page-wrap {
+	min-height: 100%;
+	margin-bottom: 10px; 
+}

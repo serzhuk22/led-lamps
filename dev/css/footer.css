@@ -1,6 +1,7 @@
 /*section footer*/
 .footer	{
-	padding-top: 30px;
+	/*margin-top: -120px;*/
+	padding-top: 15px;
 	padding-bottom: 5px;
 	background-color: #222;
 	background-image: linear-gradient(to top,#3c3c3c 0,#222 100%);
